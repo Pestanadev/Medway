@@ -1,16 +1,38 @@
-# React + Vite
+# Medway Project Documentation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Medway is a React-based project built with Vite, featuring modern development tools and optimizations.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **React**: Frontend library for building user interfaces
+- **Vite**: Next-generation frontend tooling
+- **ESLint**: Code quality and style checking
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Available Plugin Configurations
+Two official plugins are currently supported:
+1. `@vitejs/plugin-react`
+    - Uses Babel/oxc for Fast Refresh
+    - Supports rolldown-vite integration
+2. `@vitejs/plugin-react-swc`
+    - Utilizes SWC for Fast Refresh
+    - Optimized for performance
 
-## React Compiler
+## Development Notes
+- React Compiler is not enabled by default
+- HMR (Hot Module Replacement) is configured
+- Basic ESLint rules are included
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## TypeScript Support
+- TypeScript integration available
+- Type-aware lint rules recommended for production
+- See the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for setup
 
-## Expanding the ESLint configuration
+## Getting Started
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start development server: `npm run dev`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Additional Resources
+- [React Documentation](https://react.dev)
+- [Vite Documentation](https://vitejs.dev)
+- [ESLint Configuration Guide](https://eslint.org/docs/user-guide/configuring)
